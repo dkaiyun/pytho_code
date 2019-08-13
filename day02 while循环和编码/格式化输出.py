@@ -6,7 +6,12 @@
 # print(f"我叫{name},我来自{home},我今年{age}岁了.")
 
 
-lingdao = "刘老六"
-laoban = "吴老五"
-laobanniang = "齐老七"
-print(f"老板是{laoban},我的领导是{lingdao},老板娘是{laobanniang}")
+a = input("输入 :  ")  #输入 4+6+8
+
+a1 = a.split("+")
+numa = 0
+for i in range(len(a1)):
+    numa = int(a1[i]) + numa
+print(numa)
+# a3 = int(a1[0])+int(a1[1])
+# print(a3)
